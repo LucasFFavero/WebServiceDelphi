@@ -1,4 +1,4 @@
-object Form1: TForm1
+object frmMain: TfrmMain
   Left = 0
   Top = 0
   Caption = 'Projeto Web Service SOAP'
@@ -13,4 +13,22 @@ object Form1: TForm1
   OldCreateOrder = False
   PixelsPerInch = 96
   TextHeight = 13
+  object btnLogon: TButton
+    Left = 112
+    Top = 82
+    Width = 121
+    Height = 33
+    Caption = 'Efetuar Logon'
+    TabOrder = 0
+    OnClick = btnLogonClick
+  end
+  object MemoDesafio: TMemo
+    Left = 304
+    Top = 88
+    Width = 369
+    Height = 217
+    Lines.Strings = (
+      'MemoDesafio')
+    TabOrder = 1
+  end
 end

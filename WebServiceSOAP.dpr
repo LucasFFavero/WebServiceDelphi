@@ -2,7 +2,7 @@ program WebServiceSOAP;
 
 uses
   Vcl.Forms,
-  UfrmMain in 'UfrmMain.pas' {Form1},
+  UfrmMain in 'UfrmMain.pas' {frmMain},
   ServicoPJ in 'ServicoPJ.pas',
   protesto in 'protesto.pas';
 
@@ -11,6 +11,6 @@ uses
 begin
   Application.Initialize;
   Application.MainFormOnTaskbar := True;
-  Application.CreateForm(TForm1, Form1);
+  Application.CreateForm(TfrmMain, frmMain);
   Application.Run;
 end.
